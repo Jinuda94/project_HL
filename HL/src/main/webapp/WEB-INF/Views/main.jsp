@@ -18,6 +18,7 @@
 			<li><a href="admin/brStat">대출/반납 현황</a></li>
 			<li><a href="admin/borrowBook">대출</a></li>
 			<li><a href="admin/returnBook">반납</a></li>
+			<li><a href="common/mtest">마이바티스 테스트</a></li>
 		</ul>
 		
 		<br/>

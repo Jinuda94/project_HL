@@ -1,11 +1,10 @@
-package com.hl.user.ctr;
+package com.hl.demo.admin.ctr;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/user")
-public class UserBookCtr {
-
+@RequestMapping("/admin")
+public class AdminMemberCtr {
 
 }
