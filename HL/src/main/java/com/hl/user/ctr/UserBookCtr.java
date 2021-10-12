@@ -1,10 +1,11 @@
 package com.hl.user.ctr;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/user")
 public class UserBookCtr {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }
