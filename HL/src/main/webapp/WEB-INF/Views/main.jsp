@@ -13,6 +13,7 @@
 			<li><a href="admin/insertBook">도서입고</a></li>
 			<li><a href="admin/searchBook">도서조회</a></li>
 			<li><a href="admin/wantList">희망도서 조회</a></li>
+			<li><a href="admin/reserveList">예약 조회</a></li>			
 			<li><a href="admin/userList">회원조회</a></li>
 			<li><a href="admin/brStat">대출/반납 현황</a></li>
 			<li><a href="admin/borrowBook">대출</a></li>
