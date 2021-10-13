@@ -2,5 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
   
   <mapper namespace="com.common">
+  
+  	<insert id="insertUser" parameterType="com.hl.demo.common.VO.UserVO">
+		INSERT INTO hl.user (User_Name,User_Birth,User_ID,User_PW,User_Email)
+			VALUES(#{User_Name},#{User_Birth},#{User_ID},#{User_PW},#{User_Email})
+  	</insert>
+  	
+  	<select id="Selectid" parameterType="String" resultType="String">
+  		select User_ID from hl.user where User_ID = #{param}
+  	</select>
 
   </mapper>

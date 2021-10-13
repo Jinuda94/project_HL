@@ -10,5 +10,6 @@ public class UserDAO {
 	
 	@Autowired
 	private SqlSession sqlSession;
+	
 
 }
