@@ -11,5 +11,9 @@
   	<select id="Selectid" parameterType="String" resultType="String">
   		select User_ID from hl.user where User_ID = #{param}
   	</select>
+  	
+  	<select id="selectBooks" parameterType="com.hl.demo.common.VO.SearchVO" resultType="com.hl.demo.common.VO.BookVO">
+  		select * from bookinsert where ${searchType} like CONCAT('%', #{search}, '%')
+  	</select>
 
   </mapper>
