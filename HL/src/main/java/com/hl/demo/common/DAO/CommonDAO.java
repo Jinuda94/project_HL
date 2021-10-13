@@ -27,5 +27,10 @@ public class CommonDAO {
 		return sqlSession.selectOne(NAMESPACE+"Selectid",param);
 	}
 
-
+	/** 
+	 * 로그인 확인 
+	 */
+	public UserVO CheckLogin(UserVO param) {
+		return sqlSession.selectOne(NAMESPACE+"CheckLogin", param);
+	}
 }

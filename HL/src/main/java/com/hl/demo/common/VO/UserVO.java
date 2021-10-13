@@ -6,6 +6,7 @@ public class UserVO {
 	private String User_ID; 
 	private String User_PW; 
 	private String User_Email;
+	private int User_Root;
 	
 	public String getUser_Name() {
 		return User_Name;
@@ -36,6 +37,18 @@ public class UserVO {
 	}
 	public void setUser_Email(String user_Email) {
 		User_Email = user_Email;
+	}
+	
+	public int getUser_Root() {
+		return User_Root;
+	}
+	public void setUser_Root(int user_Root) {
+		User_Root = user_Root;
+	}
+	@Override
+	public String toString() {
+		return "UserVO [User_Name=" + User_Name + ", User_Birth=" + User_Birth + ", User_ID=" + User_ID + ", User_PW="
+				+ User_PW + ", User_Email=" + User_Email + "]";
 	} 
 	
 	
