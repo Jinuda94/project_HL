@@ -26,7 +26,7 @@
 			<li><a href="user/borrowList">대출 목록</a></li>
 			<li><a href="user/reserveBook">대출 예약</a></li>
 			<li><a href="user/delayBook">반납 연기</a></li>
-			<li><a href="user/searchBook">도서 조회</a></li>
+			<li><a href="common/searchBook">도서 조회</a></li>
 			<li><a href="user/want">희망 도서 신청</a></li>
 			<li><a href="common/login">로그인</a></li>
 			<li><a href="common/join">회원가입</a></li>
