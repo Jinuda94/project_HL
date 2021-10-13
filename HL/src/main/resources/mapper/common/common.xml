@@ -16,4 +16,8 @@
   		select * from bookinsert where ${searchType} like CONCAT('%', #{search}, '%')
   	</select>
 
+	<select id="CheckLogin" parameterType="com.hl.demo.common.VO.UserVO" resultType="com.hl.demo.common.VO.UserVO">
+		select * from hl.user where User_ID = #{User_ID} and User_PW = #{User_PW}
+	</select>
+	
   </mapper>
